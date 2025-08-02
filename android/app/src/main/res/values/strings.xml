@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AB LightLink</string>
+    <string name="title_activity_main">AB LightLink</string>
+    <string name="package_name">com.ablightlink.app</string>
+    <string name="custom_url_scheme">com.ablightlink.app</string>
+</resources>

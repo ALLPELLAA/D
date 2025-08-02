@@ -1,0 +1,31 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle with gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="lightGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="33%" style="stop-color:#4ecdc4;stop-opacity:1" />
+      <stop offset="66%" style="stop-color:#45b7d1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#96ceb4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main background -->
+  <circle cx="60" cy="60" r="58" fill="url(#bgGradient)" stroke="#ffffff" stroke-width="4"/>
+  
+  <!-- LED strip representation -->
+  <rect x="25" y="45" width="70" height="8" rx="4" fill="url(#lightGradient)" opacity="0.8"/>
+  <rect x="25" y="57" width="70" height="8" rx="4" fill="url(#lightGradient)" opacity="0.6"/>
+  <rect x="25" y="69" width="70" height="8" rx="4" fill="url(#lightGradient)" opacity="0.4"/>
+  
+  <!-- Connection waves -->
+  <path d="M35 25 Q45 15 55 25" stroke="#ffffff" stroke-width="3" fill="none" opacity="0.8"/>
+  <path d="M40 20 Q50 10 60 20" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M45 15 Q55 5 65 15" stroke="#ffffff" stroke-width="1" fill="none" opacity="0.4"/>
+  
+  <!-- AB Text -->
+  <text x="60" y="95" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#ffffff">AB</text>
+</svg>
