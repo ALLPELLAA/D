@@ -17,7 +17,7 @@
     "@capacitor/haptics": "^5.0.6",
     "@capacitor/keyboard": "^5.0.6",
     "@capacitor/status-bar": "^5.0.6",
-    "@capacitor-community/bluetooth-le": "5.0.0-beta.1",
+    "@capacitor-community/bluetooth-le": "^3.1.0",
     "@capacitor/network": "^5.0.6"
   },
   "devDependencies": {
